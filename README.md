@@ -2,6 +2,14 @@ Rudimentary performance timer allowing to get min, max, cumul and average proces
 
 I apologize in advance to the experienced programmers here since I'll be going over some basic stuff to get the plugin set up, so this is accessible to new programmers and server owners.
 
+# Permissions
+
+* perftimings.capture -- Allows usage of the perfcapture command.
+
+# Console Commands
+
+* perfcapture 1000 -- Starts a capture that will last the number of milliseconds provided in parameter.
+
 # Adding Perf Timings to Plugins
 
 ## Referencing PerfTimings
